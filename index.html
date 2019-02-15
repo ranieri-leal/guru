@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!-- ctrl  : é para salvar a anotação. a primeira coisa que se faz é mudar a linguagem. O atributo lang é pra informar a linguagem da página -->
+<html lang="pt-br">
+    <!-- head significa CABEÇA -->
+<head>
+    <!-- O código UTF 8 é para os caracteres usados na língua portuguesa de acentuações especiais -->
+    <meta charset="UTF-8">
+    <!-- O termo viewport é para pegar o tamanho da tela do dispositivo. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- O equiv é para manter compatibilidade com internet Explorer -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- O título é o título do projeto Esse título fica na aba do navegador-->
+    <title>GURU</title>
+    <!-- a tag link é o link que irá conectar o index html ao css para o navegador encontrar o arquivo de design da página. entao, vc abre a tag link -->
+    <link rel="stylesheet" href="guru.css">
+    <!-- o link abaixo é o link do bootstrap e é o link de referencia do bootstrap para o css.Voce vai no bootstrap e copia e cola aqui -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- O link é do Font Asewone. Como irei usar um atalho para icone do site, precisa do link para que ele busque lá no site -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+</head>
+<!-- body Significa corpo -->
+<body>
+    <!-- escreve aqui na html qual parte você está trabalhando. nesse caso vamos começar pela header. A estética dessa parte você trabalha no css com os comandos necessários. -->
+    <!-- a nav é a barra que fica acima, como o cabeçalho do site, para lista de menu, boas vindas, e deve ser aberta antes do header etc. -->
+<!-- Esse Nav é copiado do bootstrap e vai criar os itens do nav ( a barra acima do cabeçalho) usa shift tab para alinhar a informação fixed-top deixa o cabeçalho fixo -->
+<nav class="navbar  fixed-top navbar-expand-lg navbar-light bg-light">
+<a class="navbar-brand" href="#">GURU Desenvolvendo pessoas com Inovação, Criatividade e Diversão!</a>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarNav">
+<ul class="navbar-nav">
+<li class="nav-item active">
+<a class="nav-link" href="#">QUEM SOMOS <span class="sr-only">(current)</span></a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#">BASES TEÓRICAS</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#">PRODUTOS E SERVIÇOS</a>
+</li>
+<li class="nav-item">
+<a class= "nav-link" href= "#">GALERIA</a> 
+<!-- o link abaixo foi pego do font awesone. basta copiar e colar. Para criar os link e abrir direto na página do link associado como instagram, é preciso adicionar o target: _blanck e adicionar no href o link da página -->
+</li>
+<li class="nav-item">
+<a class= "nav-link" target="_blank" href= "https://www.instagram.com/ranierileal"><i class="fab fa-instagram"></i></a> 
+</li>
+</li>
+<li class="nav-item">
+<a class= "nav-link" target="_blank" href= "https://www.facebook.com/ranieri.leal"><i class="fab fa-facebook"></i></a> 
+</li>
+</li>
+<li class="nav-item">
+<a class= "nav-link" target="_blank" href= "https://web.whatsapp.com/"><i class="fab fa-whatsapp"></i></a> 
+</li>
+    </ul>
+</div>
+</nav>
+<!-- para criar texto, ou add a logo, deve ser dentro do header, a nav é apenas o cabeçalho.  -->
+    <header>
+<div>
+
+</div>
+    </header>
+    <!-- Os links do Java copiados abaixo, foram trazidos do bootstrap para permitir que funções como apertar o botão, e outras funções e deve ser a ultima coisa dentro do body -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+/* O css tem a função de organizar a estética do rsite. Para fazer com que o html e o body ocupem todo o espaço da tela segue os passos abaixo
+Sempre que abrir um comando no css, não importa em que ordem encontra, desde que esteja identificado qual parte eu quero modificar, por exemplo se for no body, coloca body acrescido de chaves e com as informações que quero e assim para todas as partes. */
+html, body{
+    width: 100%;
+    height: 100%;
+}
+/* O header significa o cabeçalho do site. cada parte deve ocupar a página toda. então vai configurando cada parte. */
+header{
+    height: 100%;
+    /* background para adicionar a imagem. o comando no repeat abaixo é para não duplicar ao ampliar. */
+    background: url(metodologiasativas.jpg) no-repeat center bottom;
+    /* o background size é o tamanho da imagem e cover é para ocupar a tela toda. */
+    background-size: cover;
+    text-align: center;
+}
+/* o a é referente ao link  para que ao passar o mouse a palavra destaque, é necessário criar o houver como abaixo. */
+a{
+    color: black !important;
+}
+a:hover{
+    color:yellow !important
+}
